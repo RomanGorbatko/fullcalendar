@@ -2,7 +2,7 @@
 /*
 Responsible for the scroller, and forwarding event-related actions into the "grid"
 */
-var ListView = View.extend({
+var ListView = FC.ListView = View.extend({
 
 	grid: null,
 	scroller: null,
